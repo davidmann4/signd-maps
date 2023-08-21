@@ -14,6 +14,12 @@
     margin-bottom: -5px;
 }
 
+@media (max-width: 600px) {
+    #menu{
+      flex-direction: column;
+    }
+}
+
 #signd-map-content{
     border: 1px solid #ccc;
 }
