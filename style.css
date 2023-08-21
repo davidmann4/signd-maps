@@ -1,0 +1,30 @@
+.signd-map-menu-item{
+    padding: 20px;
+    
+}
+
+.signd-map-menu-item.selected{
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+#menu{
+    width: 100%;
+    display: flex;
+    margin-bottom: -5px;
+}
+
+#signd-map-content{
+    border: 1px solid #ccc;
+}
+
+#signd-map-content img{
+    max-width: 100%;
+    width: 100%;
+}
+
+
+#signd-map{
+    max-width: 100%;
+    width: 100%;
+}
