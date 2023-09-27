@@ -30,4 +30,8 @@ $( document ).ready(function(){
 
     $("#signd-map").append(menu);
     $("#signd-map").append(content);
+
+    if (typeof onSigndTabsLoaded !== "undefined") { 
+        onSigndTabsLoaded();
+    }
 });
