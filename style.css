@@ -5,13 +5,14 @@
 
 .signd-map-menu-item.selected{
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(75, 86, 98);
 }
 
 #menu{
     width: 100%;
     display: flex;
     margin-bottom: -5px;
+    color: rgb(75, 86, 98);
 }
 
 @media (max-width: 600px) {
@@ -21,7 +22,7 @@
 }
 
 #signd-map-content{
-    border: 1px solid #ccc;
+    border: 1px solid rgb(75, 86, 98);
 }
 
 #signd-map-content img{
