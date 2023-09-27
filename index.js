@@ -24,6 +24,8 @@ $( document ).ready(function(){
     //menu.append(menu_item("Open Banking Coverage","https://davidmann4.github.io/signd-maps/img/open-banking-coverage.png"));
     menu.append(menu_item("eKYC Coverage","https://davidmann4.github.io/signd-maps/img/ekyc-coverage.png"));
     menu.append(menu_item("NFC Coverage","https://davidmann4.github.io/signd-maps/img/nfc-document-coverage.png"));
+    menu.append(menu_item("eIDAS Coverage","https://davidmann4.github.io/signd-maps/img/eIDAS-coverage.png"));
+    
 
     let content =  $("<div></div>").attr("id","signd-map-content").append($("<img></img>").attr("src","https://davidmann4.github.io/signd-maps/img/kyb-coverage.png"));
 
